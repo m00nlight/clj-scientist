@@ -14,7 +14,7 @@ and the [original library][3] for the core idea of the library.
 For leiningen, add the following to your `project.clj` file
 
 ```
-[clj-scientist "0.1.0-SNAPSHOT"]
+[clj-scientist "0.1.0"]
 ```
 
 For maven project, please add the following to your `pom` file
@@ -23,7 +23,7 @@ For maven project, please add the following to your `pom` file
 <dependency>
   <groupId>clj-scientist</groupId>
   <artifactId>clj-scientist</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 
