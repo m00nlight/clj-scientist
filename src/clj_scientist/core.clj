@@ -1,7 +1,5 @@
 (ns clj-scientist.core
-  (require [clj-scientist.publisher :as pub]
-           [clojure.tools.logging :as log]
-           [clojure.data.json :as json]))
+  (require [clj-scientist.publisher :as pub]))
 
 (defn new-config
   ([] (new-config {} pub/logger-only-mismatch))
